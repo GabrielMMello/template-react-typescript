@@ -1,0 +1,12 @@
+npm install html-webpack-plugin -D // o Webpack insere o bundle.js no index.html automaticamente criando um index.html novo
+npm install webpack-dev-server -D // o Webpack percebe alterações nos arquivos automaticamente e cria o bundle de novo
+// npx webpack serve
+// No linux e no Mac: NODE_ENV=production webpack
+npm install cross-env -D // Porque o windows não trabalha com variáveis de desenvolvimento como o Linux e o Mac
+npm install style-loader css-loader -D // Para o Webpack permitir imports de arquivos css no JS
+npm install node-sass sass-loader -D
+npm install -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+npm install typescript -D
+npx tsc --init // Ou npx typescript --init
+npm install @babel/preset-typescript -D
+npm install @types/react-dom -D // Talvez precise também de npm install @types/react
